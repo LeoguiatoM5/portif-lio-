@@ -202,7 +202,7 @@
     <!--Conatiner-serviços-->
     <div class="me-contate">
       <p id="contato">Entre em contato pelo Whatsapp</p>
-      <<a href="https://wa.me/5518991988337" target="_blank" class="whatsapp">
+      < a href="https://wa.me/5518991988337" target="_blank" class="whatsapp">
         <button id="whats" class="fab fa-whatsapp"></button>
     </a>
     </div>
@@ -238,18 +238,16 @@
         e.preventDefault();
         var telefone = document.getElementById("telefone").value;
 
-        // Verifique se o número não está vazio
+       
         if (telefone.trim() !== "") {
-          // Use trim() para remover espaços em branco extras
-          // Use a expressão regular para validar o número
-          let regex = /^[0-9() \-]+$/; // Adicionado espaço em branco
+         
+          let regex = /^[0-9() \-]+$/; 
           if (regex.test(telefone)) {
-            // Aqui você pode adicionar a lógica para enviar o número para o banco de dados
-
-            // Exiba a mensagem
+           
+        
             document.getElementById("mensagem").style.display = "block";
 
-            // Limpe o campo de entrada
+            
             document.getElementById("telefone").value = "";
           } else {
             alert("Digite apenas números");
