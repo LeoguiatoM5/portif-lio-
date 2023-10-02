@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Desenvolvedor Leonardo Guiato</title>
+  </head>
+  <body>
+    <!---Cabeçalho-Main-->
+
+    <div class="background";">
+      <nav>
+        <h2 class="logo"><span>Seja Bem Vindo</span></h2>
+        <!--Logo-->
+        <ul class="cabeçalho-link">
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <!--cabeçalho-link-->
+      </nav>
+
+      <div class="Main">
+        <h4 style="color: rgb(255, 47, 47)">Olá, meu nome é</h4>
+        <h1><span>Leonardo Guiato</span></h1>
+        <h3>Desenvolvedor FullStack</h3>
+        <div class="Container-btn">
+          <form>
+            <input
+              type="tel"
+              nome="telefone"
+              id="telefone"
+              placeholder="Olá, envie seu número"
+            />
+            <input
+              type="submit"
+              name="submit"
+              value="Começar"
+              style="cursor: pointer"
+            />
+          </form>
+
+          <div id="mensagem" style="color:white; font-size: larger; margin-top: 10px; display: none;">
+            <b>Número enviado com sucesso!</b>
+          </div>
+        </div>
+        <!--Container-btn-->
+      </div>
+      <!--Main-->
+    </div>
+    <!--background-->
+
+    <!--Começo-da-seção-sobre-->
+
+    <section class="background-color-Sobre">
+      <div class="main-sobre">
+        
+        <div class="Text-sobre">
+          <div class="Text-sobre">
+            <h2 id="sobre">Sobre-Mim</h2>
+            
+            <p style="font-size: 150%;">
+              Desenvolvedor  Full Stack, cozinheiro  nas horas vagas,  apaixonado por livros, filmes séries e pelo mundo da tecnologia , estou em uma missão de contribuir e fazer  projetos tecnológicos com impacto positivo.
+
+              Minhas habilidades abrangem o desenvolvimento tanto front-end quanto back-end, garantindo que todas as minhas aplicações sejam responsivas e interativas. Comprometo-me com códigos limpos, design de qualidade e faço o meu melhor para tornar meus projetos acessíveis a todos.
+      
+            </p>
+            <button type="button" id="startEmail" style="cursor: pointer;">Vamos conversar</button>
+          </div>
+          <!--Button-->
+        </div>
+        <!--Text-sobre-->
+      </div>
+      <!--main-sobre-->
+    </section>
+    <!--background-color-Sobre-->
+
+    <!--Começo-da-seção-nossos-serviços-->
+
+    <div class="Container-serviços">
+      <div class="title">
+        <h2 id="servicos">Habilidades</h2>
+      </div>
+      <!-- title -->
+    
+      <div class="Caixa" id="habilidades">
+        <!-- Primeira Fileira -->
+        <div class="Card">
+          <i class="fab fa-html5"></i>
+          <h5>HTML</h5>
+          <div class="Paragrafo-button">
+            <p>
+              Como Desenvolvedor Front-End, dominar HTML é essencial. HTML
+              (HyperText Markup Language) é a linguagem fundamental para
+              estruturar o conteúdo de um site, garantindo que ele funcione em
+              todos os dispositivos.
+            </p>
+            
+          </div>
+          <!-- Paragrafo-button -->
+        </div>
+        <!-- Card -->
+    
+        <div class="Card">
+          <i class="fab fa-css3"></i>
+          <h5>CSS</h5>
+          <div class="Paragrafo-button">
+            <p>
+              CSS (Cascading Style Sheets) é uma das principais ferramentas de
+              um Desenvolvedor Web. Ela permite dar estilo e formatação aos
+              elementos HTML, tornando o site atraente e funcional em todos os
+              dispositivos.
+            </p>
+            
+          </div>
+          <!-- Paragrafo-button -->
+        </div>
+        <!-- Card -->
+    
+        <div class="Card">
+          <i class="fab fa-js"></i>
+          <h5>JavaScript</h5>
+          <div class="Paragrafo-button">
+            <p>
+              JavaScript é a linguagem de programação que dá vida à web. Como
+              Desenvolvedor Web, você usará JavaScript para adicionar
+              interatividade e tornar seu site o mais rápido possível.
+            </p>
+            
+          </div>
+          <!-- Paragrafo-button -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Primeira Fileira -->
+    
+      <!-- Segunda Fileira -->
+      <div class="Caixa" id="habilidades">
+        <div class="Card">
+          <i class="fab fa-node-js"></i>
+          <h5>Node.js</h5>
+          <div class="Paragrafo-button">
+            <p>
+              Node.js é uma plataforma que permite que você construa aplicações
+              de servidor escaláveis e rápidas usando JavaScript. Com o Node.js,
+              você pode criar servidores web e APIs eficientes.
+            </p>
+            
+          </div>
+          <!-- Paragrafo-button -->
+        </div>
+        <!-- Card -->
+    
+        <div class="Card">
+          <i class="fab fa-react"></i>
+          <h5>React</h5>
+          <div class="Paragrafo-button">
+            <p>
+              React é uma biblioteca JavaScript popular para construir
+              interfaces de usuário interativas e reativas. Com o React, você
+              pode criar aplicativos web modernos e responsivos.
+            </p>
+            
+          </div>
+          <!-- Paragrafo-button -->
+        </div>
+        <!-- Card -->
+    
+        <div class="Card">
+          <i class="fab fa-bootstrap"></i>
+          <h5>Bootstrap</h5>
+          <div class="Paragrafo-button">
+            <p>
+              Bootstrap é um framework de código aberto que simplifica o
+              desenvolvimento de sites e aplicativos web responsivos. Ele fornece
+              uma ampla variedade de componentes e estilos predefinidos para
+              economizar tempo.
+            </p>
+            
+          </div>
+          <!-- Paragrafo-button -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Segunda Fileira -->
+    </div>
+    </div>
+    <!--Conatiner-serviços-->
+    <div class="me-contate">
+      <p id="contato">Entre em contato pelo Whatsapp</p>
+      <<a href="https://wa.me/5518991988337" target="_blank" class="whatsapp">
+        <button id="whats" class="fab fa-whatsapp"></button>
+    </a>
+    </div>
+    <!--me-contate-->
+
+    <!--Rodapé--->
+    <footer>
+      <h6>Leonardo Guiato</h6>
+      <p>Estou no <b>Linkdin</b></p>
+      <div class="Redes-sociais">
+        <a href="http://www.linkedin.com/in/leonardo-guiato" target="_blank" class="linkedin">
+            <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <!--Redes-sociais-->
+      <p class="end">CopyRight By Leonardo Guiato</p>
+    </footer>
+    <script>
+      document
+        .getElementById("startEmail")
+        .addEventListener("click", function () {
+          var subject = "Vamos Conversar"; // Substitua pelo assunto desejado
+          var body = "Olá fique a vontade pra entrar em contato \n\n"; // Inclua uma mensagem inicial ou personalizada
+          var mailtoLink =
+            "mailto:leonardoguiato99@gmail.com?subject=" +
+            encodeURIComponent(subject) +
+            "&body=" +
+            encodeURIComponent(body);
+
+          window.location.href = mailtoLink;
+        });
+      document.querySelector("form").addEventListener("submit", function (e) {
+        e.preventDefault();
+        var telefone = document.getElementById("telefone").value;
+
+        // Verifique se o número não está vazio
+        if (telefone.trim() !== "") {
+          // Use trim() para remover espaços em branco extras
+          // Use a expressão regular para validar o número
+          let regex = /^[0-9() \-]+$/; // Adicionado espaço em branco
+          if (regex.test(telefone)) {
+            // Aqui você pode adicionar a lógica para enviar o número para o banco de dados
+
+            // Exiba a mensagem
+            document.getElementById("mensagem").style.display = "block";
+
+            // Limpe o campo de entrada
+            document.getElementById("telefone").value = "";
+          } else {
+            alert("Digite apenas números");
+            document.getElementById("telefone").value = "";
+          }
+        } else {
+          alert("Digite um número de telefone.");
+        }
+      });
+    </script>
+  </body>
+</html>
